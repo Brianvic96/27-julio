@@ -1,0 +1,36 @@
+Nombre,País,Fecha,Misión,Resultado,Notas,Cohete
+Pioneer 5,Estados Unidos,marzo de 1960,Orbital,Éxito,"Realizar observaciones de los fenómenos del campo magnético, llamaradas 
+solares, y de ionización en la región interplanetaria",Thor DM-18 Able I
+Pioneer 6,Estados Unidos,diciembre de 1965,Orbital,Éxito,"Red de monitoreo solar en órbita del clima espacial, observando del viento 
+solar, rayos cósmicos y campos magnéticos",Delta E1
+Pioneer 7,Estados Unidos,agosto de 1966,Orbital,Éxito,,Delta E1
+Pioneer 8,Estados Unidos,diciembre de 1967,Orbital,Éxito,,Delta E1
+Pioneer 9,Estados Unidos,noviembre de 1968,Orbital,Éxito,,Delta E1
+Pioneer E,Estados Unidos,agosto de 1969,Orbital,Fracaso,"Destinada como parte de la red de Pioneer 6-9; no logró alcanzar la órbita 
+de la Tierra",Delta E1
+Helios A,Estados Unidos/ Alemania Occidental,noviembre de 1974,Orbital,Éxito,"Observaciones de viento solar, campos eléctricos y magnéticos, rayos 
+cósmicos y el polvo cósmico entre la Tierra y el Sol",Titan IIIE-Centauro D1T
+Helios B,Estados Unidos/ Alemania Occidental,enero de 1976,Orbital,Éxito,-,Titan IIIE-Centauro D1T
+ISEE3,Estados Unidos,diciembre de 1983,Orbital,Éxito,"Observación de fenómenos solares junto con el ISEE-1 y el ISEE-2 en la 
+órbita de la Tierra, más tarde rebautizada International Cometary Explorer (
+ICE) y dirigida hacia el cometa 21P/Giacobini-Zinner",Delta 2914
+Ulysses (primer sobrevuelo),Estados Unidos/Europa,octubre de 1990,Orbital,Éxito,"Observaciones del polo sur solar en 1994 y observaciones del polo norte 
+solar en 1995",Transbordador espacial Discovery
+Wind,Estados Unidos,noviembre de 1994,Orbital,Éxito,Mediciones del viento solar. (Aun activa y enviando datos),Delta II
+SOHO,Estados Unidos/Europa,2 de diciembre de 1995,Orbital,Éxito,"Investigación del núcleo del Sol, la corona y el viento solar; 
+descubrimientos de cometas. (Aun activa y enviando datos)",Atlas IIAS
+ACE,Estados Unidos,agosto de 1997,Orbital,Éxito,Observaciones del viento solar,Delta II
+Ulysses (segundo sobrevuelo),Estados Unidos/Europa,octubre de 1990,Orbital,Éxito,"Observaciones del polo sur solar en el 2000 y observaciones del polo norte 
+solar en 2001",Transbordador espacial Discovery
+Génesis,Estados Unidos,agosto de 2001,Orbital,Éxito,"Retorno de muestras de viento solar, aterrizó de emergencia en el retorno a 
+la Tierra, muchos datos rescatado",Delta II
+STEREO A,Estados Unidos/ Reino Unido,octubre de 2006,Orbital,Éxito,"Imágenes estereoscópicas de las eyecciones de masa coronal y otros 
+fenómenos solares",Delta II
+STEREO B,,,Orbital,Éxito,"Imágenes estereoscópicas de las eyecciones de masa coronal y otros 
+fenómenos solares",Delta II
+Ulysses (tercer sobrevuelo),Estados Unidos/Europa,octubre de 1990,Orbital,Parcial,"Observaciones del polo sur solar en 2007 y observaciones del polo norte 
+solar en 2008 (Algunos datos devueltos a pesar de no poder transmitir 
+debido a la reducción de la capacidad de transmisión)",Transbordador espacial Discovery
+DSCOVR,Estados Unidos,febrero de 2015,Orbital,Éxito,"La monitorización del viento solar y de la eyección de masa coronal, así 
+como la monitorización del clima terrestre",Falcon 9 V1.1
+Solar Orbiter,Europa,octubre de 2018,Orbital,En proceso,Física solar y heliosférica,Atlas V
