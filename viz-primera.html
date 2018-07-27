@@ -10,16 +10,32 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
 <script>
+    
+var lanzamientos = {
+EstadosUnidos: 19,
+Europa: 7
+}
+ 
+
 function setup(){
   var canvas = createCanvas(windowWidth,500);
   canvas.position(0,0)
   noStroke();
   smooth();
+
 }
 function draw(){
-  background(0,0,200);
+  background(0);
   fill(255)
-  ellipse(width/2, height/2, height/4, height/4);
+     
+  ellipse(800, height/2+40, lanzamientos.EstadosUnidos*10, lanzamientos.EstadosUnidos*10);
+    textSize(20);
+    text('Estados Unidos', 728, height/3+10);
+    
+  ellipse(1000, height/2+40, lanzamientos.Europa*10, lanzamientos.Europa*10);
+    textSize(20);
+    text('Europa', 960, height/3+10);
+    
 } 
 function windowResized() {
   resizeCanvas(windowWidth, 500);
@@ -27,3 +43,4 @@ function windowResized() {
 </script>
 </body>
 </html>
+
