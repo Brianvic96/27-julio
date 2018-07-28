@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 
 html, body {
@@ -11,24 +11,18 @@ html, body {
 
 h1{
    font-family: 'Lato', serif; 
-  font-weight:400;
-  letter-spacing: 0.75em;
+  font-weight:100;
+  letter-spacing: 0.4em;
 }
 
-h3{
+h6{
    font-family: 'Lato', serif; 
   font-weight:900;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.35em;
     
 }
 
-h4,h5,h6{
-    
-  font-weight:600;
-  letter-spacing: 0.05em;
-    color: #ffffff;
-    
-}
+
 
 #mainNav {
   border-color: white;  
@@ -185,7 +179,7 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing:1px; 
-  background-color:gray;
+  background-color: #000000;
 }
 
 footer a{
