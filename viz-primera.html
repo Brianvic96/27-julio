@@ -13,7 +13,9 @@
     
 var lanzamientos = {
 estadosunidos: 11,
-ambos: 7,
+eeuueuropa: 4,
+eeuualemania: 2,
+eeuuuk: 1,
 europa: 1
 }
  
@@ -31,20 +33,32 @@ function draw(){
      
     textAlign(CENTER);
       textSize(lanzamientos.estadosunidos*(windowWidth/100));
-    text(lanzamientos.estadosunidos, ((windowWidth/4)*1), height/2);
-    textSize(20);
-    text('Estados Unidos', ((windowWidth/4)*1), height/3+150);
-
-     
-    textSize(lanzamientos.ambos*(windowWidth/100));
-     text(lanzamientos.ambos, ((windowWidth/4)*2), height/2);
-    textSize(20);
-    text('Ambos', ((windowWidth/4)*2), height/3+150);
+    text(lanzamientos.estadosunidos, ((windowWidth/6)*1), height/2);
+    textSize(15);
+    text('Estados Unidos', ((windowWidth/6)*1), height/3+150);
+ 
+    textSize(lanzamientos.eeuueuropa*(windowWidth/100));
+     text(lanzamientos.eeuueuropa, ((windowWidth/6)*2), height/2);
+    textSize(15);
+    text('EEUU y', ((windowWidth/6)*2), height/3+150);
+    text('Europa', ((windowWidth/6)*2), height/3+170);
+    
+     textSize(lanzamientos.eeuualemania*(windowWidth/100));
+     text(lanzamientos.eeuualemania, ((windowWidth/6)*3), height/2);
+    textSize(15);
+    text('EEUU y', ((windowWidth/6)*3), height/3+150);
+    text('Alemania occidental', ((windowWidth/6)*3), height/3+170);
+    
+     textSize(lanzamientos.eeuuuk*(windowWidth/100));
+     text(lanzamientos.eeuuuk, ((windowWidth/6)*4), height/2);
+    textSize(15);
+    text('EEUU y', ((windowWidth/6)*4), height/3+150);
+    text('Reino Unido', ((windowWidth/6)*4), height/3+170);
     
     textSize(lanzamientos.europa*(windowWidth/100));
-     text(lanzamientos.europa, ((windowWidth/4)*3), height/2);
-    textSize(20);
-    text('Europa', ((windowWidth/4)*3), height/3+150);
+     text(lanzamientos.europa, ((windowWidth/6)*5), height/2);
+    textSize(15);
+    text('Europa', ((windowWidth/6)*5), height/3+150);
 
     textSize(15);
     textStyle(BOLD);
