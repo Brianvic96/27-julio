@@ -26,15 +26,36 @@ function setup(){
     
 function draw(){
     background(0);
-    fill(255)
-   
+    fill(255);
     
-    ellipse(width/4, height/2, height/4, height/4);
-    text(year[0].get(0,1), 20, 20);
-
-
-
-
+    textAlign(CENTER);
+    textSize(15);
+    textStyle(BOLD);
+    text('LÍNEA DE TIEMPO DE LANZAMIENTOS', (windowWidth/2), height/10);
+    
+    for (var a = 0; a < year.getColumnCount(); a++) {
+        var year1 = (windowWidth/90)*(year.get(0, a)-1940);
+        var year2 = (windowWidth/90)*(year.get(1, a)-1940);
+        var year3 = (windowWidth/90)*(year.get(2, a)-1940);
+        var year4 = (windowWidth/90)*(year.get(3, a)-1940);
+        var year5 = (windowWidth/90)*(year.get(4, a)-1940);
+        
+        textAlign(LEFT);
+        text('Estados Unidos', 20, (height/10)*3);
+        ellipse((year1), (height/10)*3,8,8);
+        
+        text('EEUU y Europa', 20, (height/10)*4);
+        ellipse((year2), (height/10)*4,8,8);
+        
+        text('EEUU y Alemania', 20, (height/10)*5);
+        ellipse((year3), (height/10)*5,8,8);
+        
+        text('EEUU y Reino Unido', 20, (height/10)*6);
+        ellipse((year4), (height/10)*6,8,8);
+        
+        text('Europa', 20, (height/10)*7);
+        ellipse((year5), (height/10)*7,8,8); 
+	}
 
 
 
