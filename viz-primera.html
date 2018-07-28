@@ -12,8 +12,9 @@
 <script>
     
 var lanzamientos = {
-EstadosUnidos: 19,
-Europa: 7
+estadosunidos: 11,
+ambos: 7,
+europa: 1
 }
  
 
@@ -29,19 +30,25 @@ function draw(){
   fill(255)
      
     textAlign(CENTER);
-      textSize(lanzamientos.EstadosUnidos*10);
-    text(lanzamientos.EstadosUnidos, ((windowWidth/3)*1), height/2);
+      textSize(lanzamientos.estadosunidos*(windowWidth/100));
+    text(lanzamientos.estadosunidos, ((windowWidth/4)*1), height/2);
     textSize(20);
-    text('Estados Unidos', ((windowWidth/3)*1), height/3+150);
+    text('Estados Unidos', ((windowWidth/4)*1), height/3+150);
 
+     
+    textSize(lanzamientos.ambos*(windowWidth/100));
+     text(lanzamientos.ambos, ((windowWidth/4)*2), height/2);
+    textSize(20);
+    text('Ambos', ((windowWidth/4)*2), height/3+150);
+    
+    textSize(lanzamientos.europa*(windowWidth/100));
+     text(lanzamientos.europa, ((windowWidth/4)*3), height/2);
+    textSize(20);
+    text('Europa', ((windowWidth/4)*3), height/3+150);
+S
     textSize(15);
     textStyle(BOLD);
-    text('LANZAMIENTOS POR SOBERANÍA', (windowWidth/2), height/2);
-     
-    textSize(lanzamientos.Europa*10);
-     text(lanzamientos.Europa, ((windowWidth/3)*2), height/2);
-    textSize(20);
-    text('Europa', ((windowWidth/3)*2), height/3+150);
+    text('LANZAMIENTOS POR SOBERANÍA', (windowWidth/2), height/10);
     
 } 
 function windowResized() {
