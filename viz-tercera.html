@@ -54,10 +54,13 @@ function draw(){
         ellipse((year4), (height/10)*6,8,8);
         
         text('Europa', 20, (height/10)*7);
-        ellipse((year5), (height/10)*7,8,8); 
+        ellipse((year5), (height/10)*7,8,8);
+	    
+	textAlign(CENTER);
+        text(year.get(0,1), (windowWidth/90)*(year.get(0, 1)-1940), height-100);
+        text(year.get(4,1), (windowWidth/90)*(year.get(4, 1)-1940), height-100);
+
 	}
-
-
 
 } 
 
